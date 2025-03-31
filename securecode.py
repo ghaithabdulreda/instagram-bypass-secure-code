@@ -69,12 +69,12 @@ headers = {
     "Cookie": cookie
 }
 
-# user = input("USER: ")
-user = argv[1]
-passwd = argv[2]
-email = argv[3]
-# passwd = input("PASSWD: ")
-# email = input("EMAIL: ")
+#user = argv[1]
+#passwd = argv[2]
+#email = argv[3]
+user = input("USER: ")
+passwd = input("PASSWD: ")
+email = input("EMAIL: ")
 t = int(time() * 1000)
 data = {
     "enc_password": f"#PWD_INSTAGRAM_BROWSER:0:{t}:{passwd}",
